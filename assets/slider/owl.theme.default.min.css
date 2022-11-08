@@ -14,15 +14,25 @@
 .owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot:hover span{background:#66ccff}
 .owl-prev{
     font-size: 40px !important;
-    left: 0px !important;
-    top: 200px !important;
+    
+    top: 40% !important;
     width: 50px !important;
     height: 70px !important;
+    position: absolute !important;
+    margin-left: -150px !important;
+    display: block !important;
+    border:0px solid black !important;
   }
   .owl-next{
     font-size: 40px !important;
-    right: 0px !important;
-    top: 200px !important;
+
+    top: 40% !important;
     width: 50px !important;
     height: 70px !important;
+    position: absolute !important;
+    right: -70px !important;
+    display: block !important;
+    border:0px solid black !important;
   }
+
+  .owl-prev i, .owl-next i {transform : scale(1,6); color: #ccc;}
